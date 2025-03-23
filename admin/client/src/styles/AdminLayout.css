@@ -1,0 +1,190 @@
+.company-name{
+  color:black;
+}
+
+.admin-sider {
+  background: linear-gradient(to bottom, #DEECFF, #C6CFFF, #B4D4FF);
+  border: 0px !important;
+  padding-top: 20px;
+  border-right: 1px solid #eaeaea;
+  position: relative;
+
+}
+
+.admin-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.logo-img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.ant-menu {
+  border: none;
+  background: transparent !important;
+  padding: 0 15px;
+}
+
+.ant-menu-item {
+  border-radius: 8px;
+  border: 1px solid rgba(184, 193, 213, 0.5);
+  margin-bottom: 20px !important;
+  font-weight: 500;
+  
+}
+
+.ant-menu-item-selected {
+  background-color: #e6f7ff !important;
+  color: #1890ff !important;
+}
+
+.ant-menu-item:hover {
+  background-color: #f5f5f5 !important;
+  transition: 0.3s;
+}
+
+.admin-footer {
+  padding: 15px;
+  border-top: 1px solid #f0f0f0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.admin-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-user-info .avatar {
+  background-color:#176B87;
+  color: #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+.admin-user-info .name {
+  font-weight: 600;
+}
+
+.admin-user-info .email {
+  font-size: 12px;
+  color: #888;
+}
+
+/*head*/
+.admin-title {
+  color:white !important; /* Ant Design blue */
+  background-color: #176B87 !important;
+  border-radius: 10px;
+  height: 50px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 16px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+/* layout */
+
+.admin-layout{
+  background-color: #176B87;
+  
+}
+
+/* content */
+.admin-content {
+  margin: 20px;
+  padding: 24px;
+  background: linear-gradient(to bottom, #DEECFF, #C6CFFF, #B4D4FF);
+  border-radius: 10px;
+  min-height: 100vh;
+}
+
+
+/* Overall table container */
+.ant-table {  
+  background-color:transparent !important;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 25px !important;
+ 
+}
+
+/* Header cells */
+.ant-table-thead > tr > th {
+  background-color: #176B87 !important;
+  color:white !important;
+  
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+/* Body cells */
+.ant-table-tbody > tr > td {
+  font-size: 16px !important;
+  color: black;
+
+  padding: 12px;
+}
+
+/* Row hover effect */
+.ant-table-tbody > tr:hover {
+  background-color: #f0f9ff;
+  transition: background-color 0.3s ease;
+}
+
+/* Action buttons inside table (Edit/Delete) */
+.ant-btn {
+  font-size: 13px;
+  padding: 4px 10px;
+}
+
+.edit-button{
+  background-color: #176B87;
+}
+
+.approve-button{
+  background-color: rgb(10, 160, 10);
+}
+
+.delete-button{
+  background-color: rgb(213, 42, 42) !important;
+  color: white;
+}
+
+.reject-button{
+  background-color: rgb(213, 42, 42) !important;
+  color: white;
+}
+
+.search-bar{
+  margin: 1rem !important;
+  width: 90%;
+  padding-left: 10px;
+  
+  
+}
