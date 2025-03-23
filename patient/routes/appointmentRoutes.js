@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Appointment = require("../models/Appointment");
+const Appointment = require("../patient/models/Appointment");
 
 // Appointments for a specific patient
 router.get("/patient/:patientId", async (req, res) => {
